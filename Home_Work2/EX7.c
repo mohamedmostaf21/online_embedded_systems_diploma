@@ -4,14 +4,14 @@
  Author      : Mido
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description :  factorial for higher inputs
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 typedef long long ll;
-//EX7 //factorial for higher inputs
+//EX7
 int main()
 {
     int n;
