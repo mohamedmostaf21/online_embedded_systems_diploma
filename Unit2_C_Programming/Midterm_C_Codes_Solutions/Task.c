@@ -1,10 +1,10 @@
 /*
  ============================================================================
  Name        : Task.c
- Author      : 
+ Author      : Mohamed Mostafa Shaban Mohamed
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : Midterm Exam codes solutions
  ============================================================================
  */
 
