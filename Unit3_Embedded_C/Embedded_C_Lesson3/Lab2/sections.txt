@@ -1,0 +1,29 @@
+
+learn-in-depth-cortexM3.elf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000001fc  08000000  08000000  00008000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000008  20000000  080001fc  00010000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00001003  20000008  08000204  00010008  2**2
+                  ALLOC
+  3 .debug_info   000003c1  00000000  00000000  00010008  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_abbrev 000001ee  00000000  00000000  000103c9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_loc    000000f4  00000000  00000000  000105b7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_aranges 00000060  00000000  00000000  000106b0  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000160  00000000  00000000  00010710  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    000001ae  00000000  00000000  00010870  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .comment      00000011  00000000  00000000  00010a1e  2**0
+                  CONTENTS, READONLY
+ 10 .ARM.attributes 00000031  00000000  00000000  00010a2f  2**0
+                  CONTENTS, READONLY
+ 11 .debug_frame  000000a8  00000000  00000000  00010a60  2**2
+                  CONTENTS, READONLY, DEBUGGING
